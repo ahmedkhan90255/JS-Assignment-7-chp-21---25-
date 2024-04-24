@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Question no.12</title>
     <style>
-        body {
-            background-color: cornflowerblue;
-            color: orangered;
-            font-family: sans-serif;
-        }
+      body {
+        background-color: cornflowerblue;
+        color: orangered;
+        font-family: sans-serif;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        document.write ("<h1>Write a program that converts the variable num to string. <br> var num = 35.36 ; <br> Remove the dot to display “3536” display in your browser.</h1>")
-        var input = '35.36'
-        var input1 = Number(3536)
-        document.write("<h2>Number: " + input + "</h2>")
-        document.write("<h2>Result: " + input1 + "</h2>")
-
+      document.write(
+        "<h1>Write a program that converts the variable num to string. <br> var num = 35.36 ; <br> Remove the dot to display “3536” display in your browser.</h1>"
+      );
+      var input = 35.36;
+      var input1 = input.toString();
+      var input2 = input1.replace(".", "")
+      document.write("<h2>Number: " + input + "</h2>");
+      document.write("<h2>Result: " + input2 + "</h2>");
     </script>
-</body>
+  </body>
 </html>
