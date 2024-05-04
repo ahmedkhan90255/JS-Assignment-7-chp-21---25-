@@ -1,0 +1,35 @@
+body {
+    background-color: burlywood;
+    color: darkblue;
+    font-family: sans-serif;
+  }
+
+  h1 {
+    background-color: aqua;
+    color: crimson;
+    text-decoration: underline blue;
+    display: block;
+    text-align: center;
+  }
+  h1:hover {
+    background-color: blueviolet;
+    color: lightseagreen;
+  }
+
+  #links-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: underline chartreuse;
+    color: darkmagenta;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  a:hover {
+    background-color: darkblue;
+    color: limegreen;
+  }
